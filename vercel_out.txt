@@ -1,0 +1,62 @@
+Vercel CLI 59.20.0 (Node.js 20.17.0)
+Loading teams…
+
+  Directory       /media/deepdp/New Volume/Assingment/Disha/assignment-03-employee-directory
+
+Searching for existing projects…
+
+  Detected Vite (Build Command: vite build, Output Directory: dist)
+
+✓ Created         student-d982/assignment-03-employee-directory
+> Connecting GitHub repository: https://github.com/dishabhowmick141-coder/assignment-03-employee-directory
+Error: Failed to link dishabhowmick141-coder/assignment-03-employee-directory. You need to add a Login Connection to your GitHub account first. (400)
+Visit https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections for more information.
+Deploying student-d982/assignment-03-employee-directory
+Uploading [--------------------] (0.0B/6.1KB)
+Uploading [======--------------] (2.1KB/6.1KB)
+Uploading [====================] (6.1KB/6.1KB)
+  Inspect         https://vercel.com/student-d982/assignment-03-employee-directory/FezXtsWVCv3MLqBQqa6F6TGe9opt
+  Production      https://assignment-03-employee-directory-ihbepjaip-student-d982.vercel.app
+Building…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 27 deployment files...
+Running "vercel build"
+Vercel CLI 59.16.0
+Installing dependencies...
+[2K[1A[2K[G  Production      https://assignment-03-employee-directory-ihbepjaip-student-d982.vercel.app
+Completing…
+▲ Aliased         https://assignment-03-employee-directory-seven.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_FezXtsWVCv3MLqBQqa6F6TGe9opt",
+    "url": "https://assignment-03-employee-directory-ihbepjaip-student-d982.vercel.app",
+    "inspectorUrl": "https://vercel.com/student-d982/assignment-03-employee-directory/FezXtsWVCv3MLqBQqa6F6TGe9opt",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_FezXtsWVCv3MLqBQqa6F6TGe9opt"
+  },
+  "message": "Deployment assignment-03-employee-directory-ihbepjaip-student-d982.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel git connect",
+      "when": "Automatically deploy changes on every push"
+    },
+    {
+      "command": "vercel curl https://assignment-03-employee-directory-ihbepjaip-student-d982.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect assignment-03-employee-directory-ihbepjaip-student-d982.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
